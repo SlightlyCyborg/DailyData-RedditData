@@ -1,9 +1,0 @@
-[package]
-
-name = "DailyData-RedditData"
-version = "0.0.1"
-authors = ["Alexander Taggart <taggartmachines@gmail.com>"]
-
-
-[dependencies]
-hyper = "0.1.9"
