@@ -1,0 +1,25 @@
+TARGET = Some("i686-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("i686-unknown-linux-gnu")
+HOST = Some("i686-unknown-linux-gnu")
+CC_i686-unknown-linux-gnu = None
+CC_i686_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+TARGET = Some("i686-unknown-linux-gnu")
+HOST = Some("i686-unknown-linux-gnu")
+CFLAGS_i686-unknown-linux-gnu = None
+CFLAGS_i686_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CARGO_MANIFEST_DIR = Some("/home/cyborg/.cargo/registry/src/github.com-1285ae84e5963aae/time-0.1.15")
+OUT_DIR = Some("/home/cyborg/Programs/dd/DailyData-RedditData/target/build/time-bb06b08cf69d31b6/out")
+running: cc '-O0' '-c' '-ffunction-sections' '-fdata-sections' '-m32' '/home/cyborg/.cargo/registry/src/github.com-1285ae84e5963aae/time-0.1.15/src/time_helpers.c' '-o' '/home/cyborg/Programs/dd/DailyData-RedditData/target/build/time-bb06b08cf69d31b6/out/src/time_helpers.o'
+TARGET = Some("i686-unknown-linux-gnu")
+HOST = Some("i686-unknown-linux-gnu")
+AR_i686-unknown-linux-gnu = None
+AR_i686_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: ar 'crus' '/home/cyborg/Programs/dd/DailyData-RedditData/target/build/time-bb06b08cf69d31b6/out/libtime_helpers.a' '/home/cyborg/Programs/dd/DailyData-RedditData/target/build/time-bb06b08cf69d31b6/out/src/time_helpers.o'
+cargo:rustc-flags=-L native=/home/cyborg/Programs/dd/DailyData-RedditData/target/build/time-bb06b08cf69d31b6/out -l static=time_helpers
